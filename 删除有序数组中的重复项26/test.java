@@ -5,6 +5,10 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+/**
+ * 总结
+ * 看见数组首先就应该要想到排序啊。。。
+ */
 public class test {
 }
 
