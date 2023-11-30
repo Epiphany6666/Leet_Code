@@ -18,13 +18,14 @@ class Solution {
     }
 }*/
 
+//method 二分求余法
 class Solution {
     public int cuttingBamboo(int n) {
         if (n <= 3) return n - 1;
         int b = n % 3, p = (int)1e9 + 7;
         long rem = 1, x = 3;
-        for (int i = n / 3 - 1; i > 0; i /= 2) {
-            if (i % 2 == 1) rem = (rem * x) % p;
+        for (int a = n / 3 - 1; a > 0; a /= 2) {
+            if (a % 2 == 1) rem = (rem * x) % p;
             x = (x * x) % p;
         }
         if (b == 0) return (int)(rem * 3 % p);
