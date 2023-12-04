@@ -7,6 +7,9 @@ import java.util.Random;
 public class test {
 }
 
+/**
+ * random.nextInt()：返回一个伪随机的、均匀分布的 int 值，介于 0（含）和指定值（不含）之间
+ */
 class RandomizedSet {
     Map<Integer, Integer> map = new HashMap<>();
     static int[] nums = new int[2 * (int)1e5 + 10];
