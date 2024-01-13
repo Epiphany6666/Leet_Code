@@ -2,7 +2,7 @@ package title.构造限制重复的字符串2182;
 
 public class test {
     public static void main(String[] args) {
-        new Solution().repeatLimitedString("aababab", 2);
+        new Solution1().repeatLimitedString("aababab", 2);
     }
 }
 
