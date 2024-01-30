@@ -15,6 +15,7 @@ public class test {
  * charArray.toString()绝对不行！输出的是数组的hash值
  *
  * public static String valueOf(int i)：整数转字符串
+ * 字符串转整形：Integer.parseInt
  *
  * List.<T> T[] toArray(T[] a)：
  * 返回一个数组，其中包含此列表中所有元素的正确顺序（从第一个元素到最后一个元素）;返回数组的运行时类型是指定数组的运行时类型。
