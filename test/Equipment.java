@@ -1,4 +1,4 @@
-package test;
+package Leet_Code.src.test;
 
 class a {
     public static void main(String[] args) {
