@@ -49,7 +49,7 @@ class Solution1 {
 }
 
 // method 2：DFS
-class Solution {
+class Solution2 {
     int v, d;
     public TreeNode addOneRow(TreeNode root, int val, int depth) {
         if (depth == 1) return new TreeNode(val, root, null);

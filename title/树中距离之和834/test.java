@@ -1,4 +1,4 @@
-package title.树中距离之和834;
+package Leet_Code.src.title.树中距离之和834;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -7,7 +7,7 @@ import java.util.List;
 public class test {
 }
 
-class Solution {
+class Solution1 {
     int[] table;
     int[] distSum;
     int[] nodeNum;
@@ -24,7 +24,6 @@ class Solution {
     }
 }
 
-/*
 class Solution {
     private List<List<Integer>> graph = new ArrayList<>();
     int[] distSum;
@@ -65,4 +64,4 @@ class Solution {
             preOrder(neighbor, root);
         }
     }
-}*/
+}
