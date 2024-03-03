@@ -1,4 +1,4 @@
-package Leet_Code.src.title.树中距离之和834;
+package title.树中距离之和834;
 
 import java.util.ArrayList;
 import java.util.Arrays;

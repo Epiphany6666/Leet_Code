@@ -1,4 +1,4 @@
-package Leet_Code.src.title.在二叉树中增加一行623;
+package title.在二叉树中增加一行623;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

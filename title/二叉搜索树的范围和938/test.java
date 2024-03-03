@@ -1,4 +1,4 @@
-package Leet_Code.src.title.二叉搜索树的范围和938;
+package title.二叉搜索树的范围和938;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
