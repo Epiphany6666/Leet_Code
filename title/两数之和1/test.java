@@ -18,21 +18,21 @@ class Solution {
         int[] ans = new int[length];
         boolean[] used = new boolean[nums.length];
         int sum = 0;
-        boolean[] answer = new boolean[1];
-        addSum(ans, nums, length, used, 0, target, sum, answer);
+        boolean[] answer.md = new boolean[1];
+        addSum(ans, nums, length, used, 0, target, sum, answer.md);
         return ans;
     }
-    public void addSum(int[] ans, int[] nums, int length, boolean[] used, int depth, int target, int sum, boolean[] answer) {
+    public void addSum(int[] ans, int[] nums, int length, boolean[] used, int depth, int target, int sum, boolean[] answer.md) {
         if (depth == length) {
-            if (sum == target) answer[0] = true;
+            if (sum == target) answer.md[0] = true;
             return;
         }
             for (int i = 0; i < nums.length; i++) {
-                if (!used[i] && !answer[0]) {
+                if (!used[i] && !answer.md[0]) {
                     ans[depth] = i;
                     sum += nums[i];
                     used[i] = true;
-                    addSum(ans, nums, length, used, depth + 1, target, sum, answer);
+                    addSum(ans, nums, length, used, depth + 1, target, sum, answer.md);
                     used[i] = false;
                     sum -= nums[i];///////一定要记得减去
                 }
