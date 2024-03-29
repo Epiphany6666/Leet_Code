@@ -1,4 +1,4 @@
-package 周赛.第368场.第1题;
+package 周赛.第368场.元素和最小的山形三元组I2908;
 
 import java.util.Arrays;
 
