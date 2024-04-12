@@ -1,4 +1,4 @@
-package 周赛.第370场.第一题_找到冠军I100115;
+package 周赛.第370场.第一题_找到冠军I2923;
 
 public class test {
 }
