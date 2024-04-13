@@ -22,8 +22,8 @@ class Solution {
 //method 1：排列组合
 
 //method 2：动态规划
-/*
-class Solution {
+
+class Solution1 {
     public int uniquePaths(int m, int n) {
         int[][] dp = new int[m][n];
         //question 第一行和第一列全都初始化为1？
@@ -43,7 +43,7 @@ class Solution {
         }
         return dp[m - 1][n - 1];
     }
-}*/
+}
 
 
 //method 空间复杂度优化1：
